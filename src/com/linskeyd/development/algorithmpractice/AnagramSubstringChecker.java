@@ -1,6 +1,5 @@
 package com.linskeyd.development.algorithmpractice;
 
-import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
 /**
@@ -8,8 +7,10 @@ import lombok.NonNull;
  *
  * Created by linskeyd on 8/22/15.
  */
-@NoArgsConstructor
 public class AnagramSubstringChecker {
+
+    public AnagramSubstringChecker() {
+    }
 
     /**
      * Checks whether or not the given input string's anagram is a substring of the given valToCheck

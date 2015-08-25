@@ -1,6 +1,5 @@
 package com.linskeyd.development.algorithmpractice;
 
-import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
 import java.util.HashMap;
@@ -17,8 +16,10 @@ import java.util.Set;
  *
  * Created by linskeyd on 8/22/15.
  */
-@NoArgsConstructor
 public class RepeatedPatternChecker {
+
+    public RepeatedPatternChecker() {
+    }
 
     /**
      * Given a input String, determines if it has a repeated (possible non-contiguous) pattern.
